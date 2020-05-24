@@ -45,11 +45,11 @@
 		48227E7323D1075800278DDC /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48227E7223D1075800278DDC /* DatabaseService.swift */; };
 		48227E7523D10E5B00278DDC /* TableViewFRCObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48227E7423D10E5B00278DDC /* TableViewFRCObservable.swift */; };
 		48227E7723D10EA200278DDC /* FRCMakeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48227E7623D10EA200278DDC /* FRCMakeable.swift */; };
-		48227E7A23D1165300278DDC /* BreweryCD+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48227E7823D1165300278DDC /* BreweryCD+CoreDataClass.swift */; };
-		48227E7B23D1165300278DDC /* BreweryCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48227E7923D1165300278DDC /* BreweryCD+CoreDataProperties.swift */; };
 		486D4BDC23D2DF1700AC371E /* Collection+Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486D4BDB23D2DF1700AC371E /* Collection+Access.swift */; };
 		486D4BDE23D3067700AC371E /* Validation.strings in Resources */ = {isa = PBXBuildFile; fileRef = 486D4BDD23D3067700AC371E /* Validation.strings */; };
 		486D4BE023D3126900AC371E /* BaseNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486D4BDF23D3126900AC371E /* BaseNavigationViewController.swift */; };
+		4888F3EC247A7DF00095078D /* BreweryCD+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4888F3EA247A7DF00095078D /* BreweryCD+CoreDataClass.swift */; };
+		4888F3ED247A7DF00095078D /* BreweryCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4888F3EB247A7DF00095078D /* BreweryCD+CoreDataProperties.swift */; };
 		4896823E23CE3F9900789865 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4896823D23CE3F9900789865 /* R.generated.swift */; };
 		48AFA1FB23D0DD50006E1BC1 /* UIViewController+Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AFA1FA23D0DD50006E1BC1 /* UIViewController+Coordinator.swift */; };
 		48AFA1FF23D0DFAA006E1BC1 /* BreweryMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AFA1FD23D0DFAA006E1BC1 /* BreweryMapViewController.swift */; };
@@ -102,11 +102,11 @@
 		48227E7223D1075800278DDC /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
 		48227E7423D10E5B00278DDC /* TableViewFRCObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewFRCObservable.swift; sourceTree = "<group>"; };
 		48227E7623D10EA200278DDC /* FRCMakeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRCMakeable.swift; sourceTree = "<group>"; };
-		48227E7823D1165300278DDC /* BreweryCD+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BreweryCD+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		48227E7923D1165300278DDC /* BreweryCD+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BreweryCD+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		486D4BDB23D2DF1700AC371E /* Collection+Access.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Access.swift"; sourceTree = "<group>"; };
 		486D4BDD23D3067700AC371E /* Validation.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Validation.strings; sourceTree = "<group>"; };
 		486D4BDF23D3126900AC371E /* BaseNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationViewController.swift; sourceTree = "<group>"; };
+		4888F3EA247A7DF00095078D /* BreweryCD+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BreweryCD+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4888F3EB247A7DF00095078D /* BreweryCD+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BreweryCD+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4896823D23CE3F9900789865 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		48AFA1FA23D0DD50006E1BC1 /* UIViewController+Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Coordinator.swift"; sourceTree = "<group>"; };
 		48AFA1FD23D0DFAA006E1BC1 /* BreweryMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweryMapViewController.swift; sourceTree = "<group>"; };
@@ -291,8 +291,8 @@
 		48227E6B23D103DA00278DDC /* CoreDataFiles */ = {
 			isa = PBXGroup;
 			children = (
-				48227E7823D1165300278DDC /* BreweryCD+CoreDataClass.swift */,
-				48227E7923D1165300278DDC /* BreweryCD+CoreDataProperties.swift */,
+				4888F3EA247A7DF00095078D /* BreweryCD+CoreDataClass.swift */,
+				4888F3EB247A7DF00095078D /* BreweryCD+CoreDataProperties.swift */,
 				48227E6923D1026700278DDC /* CoreDataStack.swift */,
 			);
 			path = CoreDataFiles;
@@ -545,14 +545,14 @@
 				4817218223CEB6DE001EF6F1 /* BreweryType.swift in Sources */,
 				4817218823CEBA5E001EF6F1 /* BreweryModel+Response.swift in Sources */,
 				4817217523CE4B99001EF6F1 /* Platform.swift in Sources */,
-				48227E7B23D1165300278DDC /* BreweryCD+CoreDataProperties.swift in Sources */,
+				4888F3ED247A7DF00095078D /* BreweryCD+CoreDataProperties.swift in Sources */,
 				481721A223CEDE21001EF6F1 /* UserDefaults+Pagination.swift in Sources */,
 				481721A023CED9E2001EF6F1 /* BreweryName.swift in Sources */,
 				4817217123CE4851001EF6F1 /* BreweryService.swift in Sources */,
 				4817218C23CEBBC1001EF6F1 /* Coordinate.swift in Sources */,
 				4817216C23CE4799001EF6F1 /* UseCasesProvider.swift in Sources */,
-				48227E7A23D1165300278DDC /* BreweryCD+CoreDataClass.swift in Sources */,
 				4817219C23CED96B001EF6F1 /* BreweryAPI.swift in Sources */,
+				4888F3EC247A7DF00095078D /* BreweryCD+CoreDataClass.swift in Sources */,
 				4817219E23CED996001EF6F1 /* LimitOffset.swift in Sources */,
 				4817217323CE4909001EF6F1 /* Coordinator.swift in Sources */,
 				4817218023CEB23B001EF6F1 /* AppError.swift in Sources */,
