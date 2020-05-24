@@ -1,0 +1,14 @@
+/* 
+  Alert.strings
+  Breweries
+
+  Created by Taras Chernysh on 16.01.2020.
+  Copyright © 2020 Taras Chernysh. All rights reserved.
+*/
+
+"internetConnection.title" = "Internet error";
+"internetConnection.message" = "Internet connection error";
+"oops" = "Oops!";
+"ok" = "OK";
+"data.response.nil" = "Response data nil";
+"internet.connectionError" = "Error internet connection";

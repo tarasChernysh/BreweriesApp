@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BreweryViewController" customModule="Breweries" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="2xi-Js-m1u" id="TJH-6N-wRc"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2xi-Js-m1u">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </tableView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="man" translatesAutoresizingMaskIntoConstraints="NO" id="HYS-hu-t7H">
+                    <rect key="frame" x="217.5" y="440" width="187.5" height="267"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="HYS-hu-t7H" secondAttribute="bottom" constant="-40" id="3X4-cS-qg6"/>
+                <constraint firstItem="2xi-Js-m1u" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="9Fg-M6-Qnq"/>
+                <constraint firstItem="2xi-Js-m1u" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="S01-XM-S1j"/>
+                <constraint firstAttribute="bottom" secondItem="2xi-Js-m1u" secondAttribute="bottom" id="gh7-G5-wr7"/>
+                <constraint firstItem="HYS-hu-t7H" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.4" id="h0E-Bo-aJj"/>
+                <constraint firstItem="HYS-hu-t7H" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.5" id="nEp-ai-6hD"/>
+                <constraint firstAttribute="trailing" secondItem="HYS-hu-t7H" secondAttribute="trailing" constant="-30" id="tTQ-bI-Zee"/>
+                <constraint firstAttribute="trailing" secondItem="2xi-Js-m1u" secondAttribute="trailing" id="wj5-GS-7D6"/>
+            </constraints>
+            <point key="canvasLocation" x="32.799999999999997" y="53.523238380809602"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="man" width="496" height="713"/>
+    </resources>
+</document>

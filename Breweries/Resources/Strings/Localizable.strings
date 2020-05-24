@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  Breweries
+
+  Created by Taras Chernysh on 15.01.2020.
+  Copyright © 2020 Taras Chernysh. All rights reserved.
+*/
+
+"country" = "Country: %@";
+"state" = "State: %@";
+"street" = "Street: %@";
+"website" = "Country: %@";
+"phone" = "Phone: %@";
+"city" = "City: %@";
+"breweryVC.showOnMap" = "Show on map";
+"breweryVC.showOnMap" = "Show on map";
+"breweryMapVC.close" = "Close";
+"web" = "Website:";
+"brewery.title" = "Breweries";
